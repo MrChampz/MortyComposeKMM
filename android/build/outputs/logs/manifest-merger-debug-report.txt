@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+MERGED from [:shared] /home/felpsmac/Projects/Kotlin/MortyComposeKMM/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.2.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6f567419963b194a6584b96e37687c6d/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/7122a81154083816a79ac7d4b2166169/constraintlayout-2.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/c6e6d67ae1fb32fd5420851448600652/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/939fbf6db16f08aff9aa3df3f2fcfc05/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/b400e38303f4e5408cac61e35f53581e/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/baa62f67c0b21987e549206dac123d31/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6e97b3a96058aa4ac00dce4af67f227a/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/d48221f0df20bc8c3cc0f4cf7e315e31/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1f8e733458f45e9447dccf58fa7b5e17/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/df8b81672d153923e6d868896ca62561/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/5d03c8b53ccf67ea18fa693b7779bebd/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/8c4fa983cc572a00cc4e424dd8c5a218/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/5a15a8c3d6ed7b8ddab6d42abb850805/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/b5cb11f0ca55f46fa9a4b04f33aae45c/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/db9ce37569372efbc12227cdafe332d6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/a517a51195351bb0047e149267424bc3/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1aa11535c22abd7816729d17f7e9f3e3/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/a00c623b54b7603b5d124389c5cc0465/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e4d9062d2b26a4af94285f6a42f4b1e9/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/ca13eae6bb38e087226ef27e7321197b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1cfbf930b3b87e5da3799462f2f43094/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/fdc1312c968d474d522ed0a14cde2a59/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/97ba1ac1e7f9b629bf96753d0cf0b482/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1427590f105ebcbb2874e70991872f66/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/35836964ecd850815ce5819fe8a51bcc/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e144e3a0b2094925f2394e62cb876dc8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/34d249e13190661f3c957758f68b9438/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/c0279e919793f1d1c6c51c4720053b68/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:70-123
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:1-14:12
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:3:5-13:19
+MERGED from [com.google.android.material:material:1.2.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6f567419963b194a6584b96e37687c6d/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6f567419963b194a6584b96e37687c6d/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/7122a81154083816a79ac7d4b2166169/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/7122a81154083816a79ac7d4b2166169/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e4d9062d2b26a4af94285f6a42f4b1e9/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e4d9062d2b26a4af94285f6a42f4b1e9/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/ca13eae6bb38e087226ef27e7321197b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/ca13eae6bb38e087226ef27e7321197b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e4d9062d2b26a4af94285f6a42f4b1e9/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:5:13-39
+	android:allowBackup
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:4:13-40
+	android:theme
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:6:13-44
+activity#com.upco.playground.mortycomposekmm.android.MainActivity
+ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:7:9-12:20
+	android:name
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:8:13-11:29
+action#android.intent.action.MAIN
+ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:9:17-68
+	android:name
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:9:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:10:17-76
+	android:name
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml:10:27-74
+uses-sdk
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+MERGED from [:shared] /home/felpsmac/Projects/Kotlin/MortyComposeKMM/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared] /home/felpsmac/Projects/Kotlin/MortyComposeKMM/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6f567419963b194a6584b96e37687c6d/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6f567419963b194a6584b96e37687c6d/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/7122a81154083816a79ac7d4b2166169/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/7122a81154083816a79ac7d4b2166169/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/c6e6d67ae1fb32fd5420851448600652/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/c6e6d67ae1fb32fd5420851448600652/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/939fbf6db16f08aff9aa3df3f2fcfc05/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/939fbf6db16f08aff9aa3df3f2fcfc05/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/b400e38303f4e5408cac61e35f53581e/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/b400e38303f4e5408cac61e35f53581e/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/baa62f67c0b21987e549206dac123d31/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/baa62f67c0b21987e549206dac123d31/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6e97b3a96058aa4ac00dce4af67f227a/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/6e97b3a96058aa4ac00dce4af67f227a/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/d48221f0df20bc8c3cc0f4cf7e315e31/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/d48221f0df20bc8c3cc0f4cf7e315e31/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1f8e733458f45e9447dccf58fa7b5e17/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1f8e733458f45e9447dccf58fa7b5e17/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/df8b81672d153923e6d868896ca62561/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/df8b81672d153923e6d868896ca62561/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/5d03c8b53ccf67ea18fa693b7779bebd/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/5d03c8b53ccf67ea18fa693b7779bebd/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/8c4fa983cc572a00cc4e424dd8c5a218/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/8c4fa983cc572a00cc4e424dd8c5a218/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/5a15a8c3d6ed7b8ddab6d42abb850805/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/5a15a8c3d6ed7b8ddab6d42abb850805/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/b5cb11f0ca55f46fa9a4b04f33aae45c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/b5cb11f0ca55f46fa9a4b04f33aae45c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/db9ce37569372efbc12227cdafe332d6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/db9ce37569372efbc12227cdafe332d6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/a517a51195351bb0047e149267424bc3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/a517a51195351bb0047e149267424bc3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1aa11535c22abd7816729d17f7e9f3e3/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1aa11535c22abd7816729d17f7e9f3e3/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/a00c623b54b7603b5d124389c5cc0465/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/a00c623b54b7603b5d124389c5cc0465/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e4d9062d2b26a4af94285f6a42f4b1e9/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e4d9062d2b26a4af94285f6a42f4b1e9/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/ca13eae6bb38e087226ef27e7321197b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/ca13eae6bb38e087226ef27e7321197b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1cfbf930b3b87e5da3799462f2f43094/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1cfbf930b3b87e5da3799462f2f43094/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/fdc1312c968d474d522ed0a14cde2a59/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/fdc1312c968d474d522ed0a14cde2a59/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/97ba1ac1e7f9b629bf96753d0cf0b482/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/97ba1ac1e7f9b629bf96753d0cf0b482/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1427590f105ebcbb2874e70991872f66/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/1427590f105ebcbb2874e70991872f66/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/35836964ecd850815ce5819fe8a51bcc/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/35836964ecd850815ce5819fe8a51bcc/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e144e3a0b2094925f2394e62cb876dc8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/e144e3a0b2094925f2394e62cb876dc8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/34d249e13190661f3c957758f68b9438/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/34d249e13190661f3c957758f68b9438/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/c0279e919793f1d1c6c51c4720053b68/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/felpsmac/.gradle/caches/transforms-2/files-2.1/c0279e919793f1d1c6c51c4720053b68/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		ADDED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml
+		INJECTED from /home/felpsmac/Projects/Kotlin/MortyComposeKMM/android/src/main/AndroidManifest.xml

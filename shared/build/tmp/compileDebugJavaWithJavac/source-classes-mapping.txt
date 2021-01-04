@@ -1,0 +1,2 @@
+com/upco/playground/mortycomposekmm/shared/BuildConfig.java
+ com.upco.playground.mortycomposekmm.shared.BuildConfig
