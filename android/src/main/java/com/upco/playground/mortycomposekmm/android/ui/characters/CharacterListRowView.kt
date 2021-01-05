@@ -1,0 +1,60 @@
+package com.upco.playground.mortycomposekmm.android.ui.characters
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.Providers
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import coil.transform.CircleCropTransformation
+import com.upco.playground.mortycomposekmm.shared.fragment.CharacterDetail
+import dev.chrisbanes.accompanist.coil.CoilImage
+
+@Composable
+fun CharacterListRowView(
+    character: CharacterDetail,
+    characterSelected: (character: CharacterDetail) -> Unit
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth()
+                           .clickable(onClick = { characterSelected(character) })
+                           .padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Surface(
+            modifier = Modifier.preferredSize(50.dp),
+            shape = CircleShape,
+            color = MaterialTheme.colors.onSurface.copy(alpha = 0.2f)
+        ) {
+            character.image?.let {
+                CoilImage(
+                    data = it,
+                    modifier = Modifier.preferredSize(50.dp),
+                    requestBuilder = {
+                        transformations(CircleCropTransformation())
+                    }
+                )
+            }
+        }
+        Column(
+            modifier = Modifier.padding(start = 8.dp, end = 8.dp)
+        ) {
+            Text(
+                character.name ?: "",
+                style = MaterialTheme.typography.h6,
+                fontWeight = FontWeight.Bold
+            )
+            Providers(AmbientContentAlpha provides ContentAlpha.medium) {
+                Text(
+                    "${ character.episode?.size ?: 0 } episode(s)",
+                    style = MaterialTheme.typography.body2
+                )
+            }
+        }
+    }
+    Divider()
+}

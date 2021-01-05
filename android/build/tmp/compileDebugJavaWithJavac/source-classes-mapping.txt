@@ -1,2 +1,0 @@
-com/upco/playground/mortycomposekmm/android/BuildConfig.java
- com.upco.playground.mortycomposekmm.android.BuildConfig
