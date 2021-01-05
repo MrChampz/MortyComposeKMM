@@ -21,7 +21,7 @@ fun CharacterListRowView(
 ) {
     Row(
         modifier = Modifier.fillMaxWidth()
-                           .clickable(onClick = { characterSelected(character) })
+                           .clickable { characterSelected(character) }
                            .padding(16.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {

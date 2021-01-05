@@ -1,0 +1,23 @@
+package com.upco.playground.mortycomposekmm.android.ui.episodes
+
+import androidx.paging.PagingSource
+import com.upco.playground.mortycomposekmm.shared.MortyRepository
+import com.upco.playground.mortycomposekmm.shared.fragment.EpisodeDetail
+
+class EpisodesDataSource(
+    private val repository: MortyRepository
+): PagingSource<Int, EpisodeDetail>() {
+
+    override suspend fun load(params: LoadParams<Int>): LoadResult<Int, EpisodeDetail> {
+        val pageNumber = params.key ?: 0
+
+        val episodesResponse = repository.getEpisodes(pageNumber)
+        val episodes = episodesResponse?.resultsFilterNotNull()?.map {
+            it.fragments.episodeDetail
+        }
+
+        val prevKey = if (pageNumber > 0) pageNumber - 1 else null
+        val nextKey = episodesResponse?.info?.next
+        return LoadResult.Page(data = episodes ?: emptyList(), prevKey, nextKey)
+    }
+}

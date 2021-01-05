@@ -16,6 +16,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.*
 import com.upco.playground.mortycomposekmm.android.ui.characters.CharacterDetailView
 import com.upco.playground.mortycomposekmm.android.ui.characters.CharacterListView
+import com.upco.playground.mortycomposekmm.android.ui.episodes.EpisodeDetailView
+import com.upco.playground.mortycomposekmm.android.ui.episodes.EpisodeListView
 
 sealed class Screens(val route: String, val label: String, val icon: ImageVector? = null) {
     object CharactersScreen: Screens("Characters", "Characters", Icons.Default.Person)
@@ -58,13 +60,13 @@ fun MainLayout() {
             )
         }
         composable(Screens.EpisodesScreen.route) {
-            CharacterListView(bottomBar) {
+            EpisodeListView(bottomBar) {
                 navController.navigate("${ Screens.EpisodesScreen.route }/${ it.id }")
             }
         }
         composable("${ Screens.EpisodeDetailsScreen.route }/{id}") { backStackEntry ->
-            CharacterDetailView(
-                characterId = backStackEntry.arguments?.get("id") as String,
+            EpisodeDetailView(
+                episodeId = backStackEntry.arguments?.get("id") as String,
                 popBack = { navController.popBackStack() }
             )
         }
