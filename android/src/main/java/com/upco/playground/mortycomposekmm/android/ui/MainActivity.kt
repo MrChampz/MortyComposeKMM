@@ -18,6 +18,8 @@ import com.upco.playground.mortycomposekmm.android.ui.characters.CharacterDetail
 import com.upco.playground.mortycomposekmm.android.ui.characters.CharacterListView
 import com.upco.playground.mortycomposekmm.android.ui.episodes.EpisodeDetailView
 import com.upco.playground.mortycomposekmm.android.ui.episodes.EpisodeListView
+import com.upco.playground.mortycomposekmm.android.ui.locations.LocationDetailView
+import com.upco.playground.mortycomposekmm.android.ui.locations.LocationListView
 
 sealed class Screens(val route: String, val label: String, val icon: ImageVector? = null) {
     object CharactersScreen: Screens("Characters", "Characters", Icons.Default.Person)
@@ -61,7 +63,7 @@ fun MainLayout() {
         }
         composable(Screens.EpisodesScreen.route) {
             EpisodeListView(bottomBar) {
-                navController.navigate("${ Screens.EpisodesScreen.route }/${ it.id }")
+                navController.navigate("${ Screens.EpisodeDetailsScreen.route }/${ it.id }")
             }
         }
         composable("${ Screens.EpisodeDetailsScreen.route }/{id}") { backStackEntry ->
@@ -71,13 +73,13 @@ fun MainLayout() {
             )
         }
         composable(Screens.LocationsScreen.route) {
-            CharacterListView(bottomBar) {
-                navController.navigate("${ Screens.LocationsScreen.route }/${ it.id }")
+            LocationListView(bottomBar) {
+                navController.navigate("${ Screens.LocationDetailsScreen.route }/${ it.id }")
             }
         }
         composable("${ Screens.LocationDetailsScreen.route }/{id}") { backStackEntry ->
-            CharacterDetailView(
-                characterId = backStackEntry.arguments?.get("id") as String,
+            LocationDetailView(
+                locationId = backStackEntry.arguments?.get("id") as String,
                 popBack = { navController.popBackStack() }
             )
         }
@@ -89,20 +91,22 @@ private fun MortyBottomNavigation(
     navController: NavHostController,
     items: List<Screens>
 ) {
-    val currentRoute = currentRoute(navController)
-    items.forEach { screen ->
-        BottomNavigationItem(
-            icon = { screen.icon?.let { Icon(screen.icon) } },
-            label = { Text(screen.label) },
-            selected = currentRoute == screen.route,
-            onClick = {
-                // This if check give us a "singleTop" behavior where we do not create a
-                // second instance of the composable if we are already on that destination
-                if (currentRoute != screen.route) {
-                    navController.navigate(screen.route)
+    BottomNavigation {
+        val currentRoute = currentRoute(navController)
+        items.forEach { screen ->
+            BottomNavigationItem(
+                icon = { screen.icon?.let { Icon(screen.icon) } },
+                label = { Text(screen.label) },
+                selected = currentRoute == screen.route,
+                onClick = {
+                    // This if check give us a "singleTop" behavior where we do not create a
+                    // second instance of the composable if we are already on that destination
+                    if (currentRoute != screen.route) {
+                        navController.navigate(screen.route)
+                    }
                 }
-            }
-        )
+            )
+        }
     }
 }
 
